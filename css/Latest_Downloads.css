@@ -1,0 +1,133 @@
+h2 {
+	font-size: 20px;
+	font-style: italic;
+	color: #4b5053;
+	font-family: Georgia;
+	margin-bottom: 15px;
+}
+
+.Latest_Downloads {
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+.block p {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.content-block{
+	width: 310px;
+	height: 200px;
+	background: url(../images/block.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blocks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.block-search {
+	width: 310px;
+}
+
+.block-search h2 {
+	font-size: 12px;
+	color: #4b5053;
+	font-weight: bold;
+	padding: 10px 0;
+	border-top:1px solid #c7c7c7;
+	border-bottom:1px solid #c7c7c7;
+}
+
+.block-search p {
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.block-search input {
+	width: 260px;
+	height: 40px;
+	padding: 15px 20px 15px 20px;
+	border: none;
+	outline: none;
+}
+
+.block-search input[type="text"]::-webkit-input-placeholder {
+	font-size: 13px;
+	font-style: italic;
+	color: #acacac;
+}
+
+.block-search button {
+	font-size: 13px;
+	font-style: italic;
+	color: #acacac;
+	width: 40px;height: 40px;
+	outline: none;
+	background: #fff;
+	border: none;
+	margin-left: 5px;
+}
+
+.block-search button:hover {
+	cursor: pointer;
+}
+
+.search {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.list ul {
+	padding: 0;
+}
+
+.list ul li {
+	font-size: 12px;
+	color: #525252;
+	font-style: italic;
+	list-style-type: none;
+	line-height: 30px;
+	/*border-bottom: 2px dotted #bfbfbf;*/
+}
+
+.list ul li:after {
+	content: "";
+	display: block;
+	height: 1px;
+	border-bottom: 2px dotted #bfbfbf;
+	width: 40px;
+}
+
+.block-h2 h2 {
+	border: none;
+}
+
+.block-h2 {
+	display: flex;
+	justify-content: space-between;
+	border-top:1px solid #c7c7c7;
+	border-bottom:1px solid #c7c7c7;
+	height: 36px;
+	/*line-height: 36px;*/
+
+}
+
+.block-h2 button {
+	outline: none;
+	border: none;
+	background: transparent;
+	line-height: 36px;
+}

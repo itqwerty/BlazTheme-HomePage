@@ -1,0 +1,41 @@
+.desc {
+	display: inline-block;
+	font-size: 12px;
+	color: #525252;
+	font-weight: normal;
+	width: 310px;
+	line-height: 22px;
+	padding-bottom: 10px;
+}
+
+.desc:after {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 1px;
+	border-bottom: 2px dotted #bfbfbf;
+	padding: 4px;
+
+}
+
+.other_block {
+	height: 375px;
+}
+
+.date {
+	font-size: 11px;
+	margin-bottom: 30px;
+}
+
+.line-date, .likes_message {
+	display: flex;
+	justify-content: space-between;
+}
+
+.likes_message i {
+	margin-left: 8px;
+}
+
+.likes {
+	margin-left: 15px;
+}

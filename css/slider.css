@@ -1,0 +1,45 @@
+.slider {
+	position: relative;
+	height: 395px;
+	width: 980px;
+}
+
+.slider img, .slider label {
+	height: 395px;
+	width: 980px;
+}
+
+.slider label {
+	position: absolute;
+	/*opacity: 0;*/
+}
+
+.slider input {
+ 	position: absolute;
+ 	z-index: 999;
+ 	top: 352px;
+ 	margin-right: 2px;
+}
+
+#img-1 {
+	left: 55px;
+}
+
+#img-2 {
+	left: 72px;
+}
+
+#img-3 {
+	left: 89px;
+}
+
+
+.slider input:checked + label {
+	/*opacity: 1;*/
+	z-index: 888;
+	transition: all 1s ease;
+}
+
+.slider input:hover {
+	cursor: pointer;
+}
